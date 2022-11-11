@@ -1,0 +1,5 @@
+<li> - list item
+Used inside:
+    <ol> - ordered list
+    <ul> - unordered list
+    <meny> - menu
