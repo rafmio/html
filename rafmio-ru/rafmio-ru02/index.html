@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rafmio's Portfolio Page</title>
+    <style>
+      body {
+          font-family: "Lato", sans-serif;
+      }
+
+      .sidenav {
+          height: 100%;
+          width: 160px;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: #111;
+          overflow-x: hidden;
+          padding-top: 20px;
+      }
+
+      .sidenav a {
+          padding: 6px 8px 6px 16px;
+          text-decoration: none;
+          font-size: 20px;
+          color: #818181;
+          display: block;
+      }
+
+      .sidenav a:hover {
+          color: #f1f1f1;
+      }
+
+      .main {
+          margin-left: 160px; /* Same as the width of the sidenav */
+          font-size: 20px; /* Increased text to enable scrolling */
+          padding: 0px 10px;
+      }
+
+      @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 15px;}
+          .sidenav a {font-size: 18px;}
+      }
+      </style>
+  </head>
+  <body>
+
+    <div class="sidenav">
+      <a href="#about">About Me</a>
+      <a href="#services">My Services</a>
+      <a href="#clients">My Tools</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="main">
+
+      <h1 align="center">Rafmio's Portfolio Page</h1>
+      <h2 align="center">Website Under Development</h2>
+      <p align="center">This site is under development</p>
+      <p align="center">
+        <img src="./images/glasses01.png" width="570" height="336" alt="glasses">
+      </p>
+
+      <p align="center">
+        Visit <a href="https://github.com/rafmio">GitHub</a>
+      </p>
+
+    </div>
+  </body>
+</html>
